@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+  padding-top: 30px;
+  background-color: #011F3F;
+}
+
+h1{
+  color: white;
+  line-height: 7vw;
+  padding-bottom: 2vw;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4vw;
+}
+
+button{
+  margin: 1.9vw;
+  height: 15vw;
+  width: 15vw;
+  border-width: thick;
+  border-color: black;
+  border-radius: 4vw;
+}
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.blue{
+  background-color: blue;
+}

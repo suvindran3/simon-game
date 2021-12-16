@@ -59,3 +59,4 @@ $('button').click(function(event) {
 });
 
 $('body').keypress(nextState);
+$('body').click(nextState);

@@ -59,4 +59,8 @@ $('button').click(function(event) {
 });
 
 $('body').keypress(nextState);
-$('body').click(nextState);
+$('body').click(function(){
+  if (gameState.length == 0){
+    nextState();
+  }
+});
